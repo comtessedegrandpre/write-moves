@@ -8,7 +8,7 @@ OneRoom was a video conferencing solution for hybrid training, designed to bring
 
 [<img src="images/oneroom-514.png" width="600" alt="Our OneRoom in Montreal">](images/oneroom-514.png)
 
-I was asked to drive the redesign of the remote participant video wall, including its seating model, automation, and interaction behavior. I worked closely with the product designer, backend and frontend architects, and our senior training manager to explore the user experience, technical constraints, and what was feasible to build.
+I was asked to drive the redesign of the remote participant video wall, including its seating model, automation, and interaction behavior. I worked closely with the product designer, backend and frontend architects, the product strategist, and our senior training manager to explore the user experience, technical constraints, and what was feasible to build.
 
 The work resulted in a set of product requirements, interaction designs, automation rules, and Figma prototypes intended for further physical-room testing.
 
@@ -35,6 +35,12 @@ The result could be a video wall with occupied and unoccupied positions scattere
 We wanted the wall to communicate the state of the session more naturally: Participants should occupy the center of the wall, with empty positions pushed toward the edges.
 
 That simple visual principle became one of the foundations of the redesign.
+
+**Participant movement was entirely manual**
+
+When someone dropped from the session and did not return, the host or moderator had to manually fill the vacant seat by moving someone from Overflow or another position on the wall.
+
+It could take time for someone to notice the vacancy, and if there was no moderator available or the host was occupied with the session, the seat could remain empty.
 
 **It was difficult to identify the active speaker**
 
@@ -239,9 +245,9 @@ The experience depended on coordinating:
 * Real-time events
 * Consistent behavior across endpoints
 
-At the time, the back-end architect was beginning to explore LiveKit for the real-time media layer.
+At the time, OneRoom's in-session experience relied on legacy infrastructure (*Epoxy*, which was a beast!) for live media, participant identity, and session lifecycle. As the product evolved, this created architectural coupling that limited flexibility.
 
-One of the product-level architectural questions we worked through was the distinction between media transport and product logic.
+The development team was beginning to explore LiveKit as a replacement for the real-time media layer. One of the product-level architectural questions we worked through was the distinction between media transport and product logic.
 
 LiveKit could provide the media transport and basic room functionality. It did not define OneRoom's product-specific session behavior, roles, permissions, or authoritative state.
 
