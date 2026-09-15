@@ -8,7 +8,7 @@ OneRoom was a video conferencing solution for hybrid training, designed to bring
 
 [<img src="images/oneroom-514.png" width="600" alt="Our OneRoom in Montreal">](images/oneroom-514.png)
 
-I was asked to drive the redesign of the remote participant video wall, including its seating model, automation, and interaction behavior. I worked closely with the product designer, backend and frontend architects, the product strategist, and our senior training manager to explore the user experience, technical constraints, and what was feasible to build.
+I was asked to drive the redesign of the remote participant video wall, including its seating model, automation, and interaction behavior. I worked closely with the product designer, backend and frontend architects, product strategist, and our senior training manager to explore the user experience, technical constraints, and what was feasible to build.
 
 The work resulted in a set of product requirements, interaction designs, automation rules, and Figma prototypes intended for further physical-room testing.
 
@@ -32,7 +32,9 @@ When a session started, every screen could be activated even if the correspondin
 
 The result could be a video wall with occupied and unoccupied positions scattered throughout it.
 
-We wanted the wall to communicate the state of the session more naturally: Participants should occupy the center of the wall, with empty positions pushed toward the edges.
+We wanted the wall to communicate the state of the session more naturally:
+
+Participants should occupy the center of the wall, with empty positions pushed toward the edges.
 
 That simple visual principle became one of the foundations of the redesign.
 
@@ -283,6 +285,10 @@ The work was deliberately iterative.
 
 I worked with the product designer to develop the interaction model and Figma prototypes while we discussed feasibility with developers and our senior training manager.
 
+The prototype became a way to work through how different participant states would be represented on the video wall. Each participant could have multiple states at once, including role, speaking status, mute status, hand raised, reactions, poll responses, or a temporary status such as needing a coffee break.
+
+Rather than designing each state as an isolated screen, we treated the participant tile as a common component with a set of possible states and modifiers. This helped us identify conflicts and establish rules for how information should be presented when multiple conditions occurred at once.
+
 The first prototypes were intended to be tested in the physical room.
 
 That was important because some questions could not be answered adequately on a computer screen. We needed to see:
@@ -293,9 +299,11 @@ That was important because some questions could not be answered adequately on a 
 * How role changes affected the wall
 * Whether the physical positioning supported the intended sense of presence
 
-The prototype was therefore not presented as the final design. It was a way to make the proposed behavior tangible enough to evaluate.
-
 [<img src="images/participant-video-prototype.png" width="600" alt="OneRoom video wall prototype">](images/participant-video-prototype.png)
+
+*Figma exploration of participant states and combinations. The prototype was used to identify competing states, establish information hierarchy, and explore how participant status could be communicated consistently across the video wall.*
+
+The prototype was therefore not presented as the final design. It was a way to make the proposed behavior tangible enough to evaluate, discuss, and refine before implementation.
 
 ## My role
 
