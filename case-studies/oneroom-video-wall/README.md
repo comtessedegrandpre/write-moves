@@ -287,6 +287,8 @@ That was important because some questions could not be answered adequately on a 
 
 The prototype was therefore not presented as the final design. It was a way to make the proposed behavior tangible enough to evaluate.
 
+[<img src="images/participant-video-prototype.png" width="600" alt="OneRoom video wall prototype">](images/participant-video-prototype.png)
+
 ## My role
 
 I was responsible for driving the video-wall work from the product side.
@@ -329,3 +331,18 @@ Make participant movement predictable, meaningful, and minimal.
 Getting to that principle required working through the many ways a participant could enter, leave, move through, or change roles within a live hybrid session.
 
 And that, ultimately, was the purpose of the redesign: to turn a promising proof of concept into a more coherent product experience.
+
+## Acknowledgements
+
+Thank you:
+
+* Ashley
+* Dave
+* Jo
+* Julien
+* Kristof
+* Sacha
+
+*I really enjoyed working on OneRoom with you.*
+
+So long, and thanks for all the tea.
