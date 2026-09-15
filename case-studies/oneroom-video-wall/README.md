@@ -122,7 +122,11 @@ The goal was to make the physical positioning meaningful rather than arbitrary.
 
 One of the larger pieces of the redesign was what I called the *Smart Seat Filler*.
 
-A vacancy could occur for many reasons:
+The video wall had a defined physical layout, with numbered participant seats distributed across multiple screens.
+
+[<img src="images/seating-chart.png" width="600" alt="OneRoom example seating chart">](images/seating-chart.png)
+
+Participants could leave a seat vacant for several reasons:
 
 * A participant permanently disconnecting
 * A Remote Presenter leaving the video wall
@@ -133,15 +137,16 @@ A vacancy could occur for many reasons:
 Rather than treating each situation as a separate problem, we developed a common model for filling the resulting vacancy.
 
 The preferred sequence was:
+
 1. Place an available participant from Overflow into the vacant seat.
 2. If there was no Overflow participant, move a participant from the far edge inward.
 3. Leave the newly vacated edge position empty.
 
 The important constraint was minimal movement.
 
-We explicitly wanted to avoid the common approach of shifting everyone along the wall to close a gap.
+We explicitly wanted to avoid the common approach of shifting everyone along the wall to close a gap. The system should make the smallest possible change to the existing arrangement.
 
-Only the participant directly affected by the vacancy should move whenever possible.
+In other words, a vacancy should cause one meaningful movement, not a chain reaction.
 
 ## Temporary disconnects
 
@@ -208,6 +213,8 @@ We wanted to communicate things such as:
 But displaying everything simultaneously would have produced a cluttered interface.
 
 The product designer and I therefore worked through the relative priority of these states and how one indicator should replace another when space was limited.
+
+[<img src="images/engagement-feature-prioritization.png" width="600" alt="OneRoom engagement prioritization">](images/engagement-feature-prioritization.png)
 
 This was essentially an information hierarchy for a constrained interface.
 
