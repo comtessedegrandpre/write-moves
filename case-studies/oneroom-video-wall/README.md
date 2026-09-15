@@ -1,10 +1,12 @@
 # OneRoom Video Wall: From Proof of Concept to Product Experience
 
-Designing predictable participant behavior across a real-time hybrid video conferencing system.
+*Designing predictable participant behavior across a real-time hybrid video conferencing system.*
 
 ## Overview
 
 OneRoom was a video conferencing solution for hybrid training, designed to bring remote participants into the physical classroom and make them feel more present and engaged in the learning experience. One of its more distinctive features was a video wall: remote participants appeared on individual screens positioned around the physical room, with each screen supporting its own camera, microphone, and speaker.
+
+[<img src="images/oneroom-514.png" width="600" alt="Our OneRoom in Montreal">](images/oneroom-514.png)
 
 I was asked to drive the redesign of the remote participant video wall, including its seating model, automation, and interaction behavior. I worked closely with the product designer, backend and frontend architects, and our senior training manager to explore the user experience, technical constraints, and what was feasible to build.
 
