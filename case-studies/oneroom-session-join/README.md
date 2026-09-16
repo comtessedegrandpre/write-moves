@@ -10,6 +10,8 @@ My focus was on making the experience clear, welcoming, and consistent with OneR
 
 The Product team began by sketching a few early concepts for the experience. These were intentionally rough. The goal was to explore the content, messaging, and sequence of information before the screens were developed into polished UI.
 
+[<img src="images/session-join-sketches.png" width="600" alt="OneRoom Session Join rough sketches">](images/session-join-sketches.png)
+
 The sketches explored several participant states, including first-time sign-in, an error state, and joining a session through a link without signing in.
 
 The product strategist and product designer then expanded the initial concepts into a more complete set of screens and interactions. I continued contributing and refining the copy as the designs evolved, working with the team to shape the content for the different states a participant might encounter.
@@ -39,6 +41,8 @@ The first line provided an aspirational element, while the second grounded the m
 
 Importantly, this copy made it from the initial concept into the production product.
 
+[<img src="images/sign_in_sso.png" width="600" alt="OneRoom SSO sign in screen">](images/sign_in_sso.png)
+
 The wording also reflected the breadth of OneRoom. It was not exclusively a meeting product. The experience needed to work equally naturally in learning, training, and collaborative contexts.
 
 ## Writing for different states
@@ -53,6 +57,8 @@ For example, my initial concept for the page-not-found state used a more human, 
 **Take me Home**
 
 The production experience ultimately used the more direct **Page not found** treatment.
+
+[<img src="images/page_not_found.png" width="600" alt="OneRoom Page Not Found screen">](images/page_not_found.png)
 
 That evolution illustrates an important part of UX writing: a consistent voice does not mean every message needs to be expressive. For an error state, immediate recognition of what happened can be more useful than a branded message.
 
@@ -80,6 +86,8 @@ The use of **preferred name** was intentional. It allowed participants to enter 
 
 The optional introduction field gave participants another way to provide context about themselves. They could enter information such as a title, location, or pronouns, but they were not required to disclose anything beyond their name.
 
+[<img src="images/get_ready_not_recognized.png" width="600" alt="OneRoom participant identification">](images/get_ready_not_recognized.png)
+
 ## Designing content for the whole experience
 
 The "Share a bit about yourself" field also had a constraint that was not immediately visible on the screen.
@@ -102,9 +110,11 @@ The interface was digital, but the content ultimately became part of a physical 
 
 ## Content across the join flow
 
-The final experience included a range of situations beyond the normal sign-in path, including access problems, expired links, SSO sign-out, and the waiting room.
+The final experience included a range of situations beyond the normal sign-in path, including access problems, expired links, SSO sign-out, and when a session is being recorded.
 
 I contributed copy across these different states, working with the team to keep the experience coherent while ensuring that participants had the information they needed at each step.
+
+[<img src="images/access_denied.png" width="600" alt="OneRoom access denied screen">](images/access_denied.png)
 
 The work was less about finding a clever phrase for each screen and more about considering what the participant needed to know, what they needed to do next, and how each message fit into the larger OneRoom experience.
 
