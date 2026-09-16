@@ -6,4 +6,4 @@ A portfolio of work spanning technical communication, product ownership, UX writ
 
 ## Portfolio
 
-*Coming soon.*
+[Case Studies](case-studies/)
